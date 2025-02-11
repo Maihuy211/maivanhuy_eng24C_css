@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+    border: 1px solid white;
+}
+*{
+    text-align: center;
+}
+body{
+    background-color:rgb(215, 215, 215);
+}
+th{
+    background-color: dodgerblue;
+}
+.view{
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 10px 15px;
+}
+.update{
+    background-color: yellow;
+    color: black;
+    border: 0px;
+    padding: 10px 15px;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 10px 15px;
+}
+.white{
+    background-color: white;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
