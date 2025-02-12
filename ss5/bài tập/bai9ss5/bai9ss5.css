@@ -1,0 +1,23 @@
+*{
+    font-family:"lato";
+    font-size: 19px;
+    color: rgb(33, 33, 33);
+}
+hr{
+    border: none;
+    border-top: 3px dashed #919191;
+}
+img{
+    border-radius: 6px;
+}
+.demo-code{
+    color: #8e87a5;
+}
+a{
+    text-decoration: none;
+    color: #241851;
+}
+.border{
+    border-left: 1px solid #8e87a5;
+    padding: 0 10px;
+}

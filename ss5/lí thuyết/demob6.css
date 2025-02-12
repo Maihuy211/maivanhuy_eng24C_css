@@ -1,0 +1,33 @@
+/* thiết lập thông số nền tảng*/
+*{
+    font-family:"lato";
+    font-size: 19px;
+    color: rgb(33, 33, 33);
+}
+.exercise-06 h2{
+    font-size: 35px;
+}
+.exercise-06 .sytex{
+    color: #dc4165;
+    background-color: #f4f1f3;
+}
+.exercise-06 .demo-figure{
+    text-align: center;
+    border: 3px solid green;
+    line-height: 3; /*căn chiều cao*/
+    margin-bottom: 20px; /*khoảng cách giữa các khối*/
+}
+.exercise-06 .example{
+    background-color: #e5e9ed;
+    padding: 20px;
+}
+.example h3{
+    font-size: 30;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.example .demo-code{
+    background-color: white;
+    border-left: 4px solid green;
+    padding: 10px;
+}
