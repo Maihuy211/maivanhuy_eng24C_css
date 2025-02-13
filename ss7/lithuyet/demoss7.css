@@ -1,0 +1,64 @@
+*{
+    font-size: 16px;
+    color: rgb(35, 35, 35);
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+}
+.box-model{
+    /*tinh chỉnh khoảng cách content*/
+    width: 150px;
+    height: 150px;
+    /*Tinh chỉnh khoang cách từ nội dung đến viền */
+    padding: 20px;
+    border: 5px solid black; 
+    /* tinh chỉnh khoảng cách từ viền đến phần tử HTML nằm ngoài */
+    margin: 40px;
+    /* Hậu tố border top bottom right left*/
+    margin-top: 20px;
+    background-color: aqua;
+    border-bottom: 15px solid black;
+    margin-bottom: 20px;
+    
+}
+span{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black; 
+    margin: 40px;
+    margin-top: 20px;
+    background-color: aqua;
+    border-bottom: 15px solid black;
+    margin-bottom: 20px;   
+}
+.absulute, .relative{
+    margin-top: 150px;
+}
+h3{
+    margin-bottom: 70px;
+}
+.relative span{
+    padding: 50px;
+    border: 10px solid black;
+    margin-right: 10px;
+    background-color: pink;
+}
+.absulute span{
+    padding: 50px;
+    border: 10px solid black;
+    margin-right: 10px;
+    background-color: pink;
+}
+.possition-relative{
+    position: relative;
+    /*top buttom left right
+    top- left | top - right | bottum - lefft | bottum  right*/
+    top:170px;
+    left:140px
+}
+.possition-absulute{
+    position: absolute; /*lay trinh fuyet lm goc*/
+    top: 0;
+    left: 0;
+}
