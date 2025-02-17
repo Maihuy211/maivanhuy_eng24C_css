@@ -1,0 +1,30 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.center  {
+    border: 10px;
+    padding: 10px 10px;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+}
+.center div{
+    width: 200px;
+    background-color: #800080;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}

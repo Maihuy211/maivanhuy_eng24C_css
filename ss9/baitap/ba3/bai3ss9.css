@@ -1,0 +1,33 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.center  {
+    border: 10px;
+    padding: auto;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 55%;
+}
+.center div{
+    width: 200px;
+    background-color: #3498db;
+    height: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.center .box5{
+    flex-grow: 2;
+}

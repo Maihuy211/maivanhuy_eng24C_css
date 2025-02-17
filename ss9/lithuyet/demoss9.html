@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { width: 80%; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+        .row { display: flex; gap: 10px; }
+        .big, .small { background: #2C3E50; color: white; padding: 20px; flex: 1; text-align: center; }
+        .big { flex: 2; }
+        .small-container { flex: 1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Hãy tạo ra trang web danh sách sản phẩm có thông tin như sau:</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="big">Big</div>
+            <div class="small-container">
+                <div class="small">Small 1</div>
+                <div class="small">Small 2</div>
+                <div class="small">Small 3</div>
+                <div class="small">Small 4</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="big">Big</div>
+            <div class="small-container">
+                <div class="small">Small 5</div>
+                <div class="small">Small 6</div>
+                <div class="small">Small 7</div>
+                <div class="small">Small 8</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
