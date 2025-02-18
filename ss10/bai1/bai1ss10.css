@@ -3,15 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: rgb(57, 57, 57);
 }
-
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #e5e5e5;
+    padding: 5px;
+}
+.font{
+    font-family: "Dancing Script", serif;
+    font-size: 16px;
 }
 .list ul{
     display: flex;
@@ -23,11 +27,17 @@ nav{
 input{
     border: none;
     width: 80px;
-    background-color:#e5e5e5;
+    background-color: #8d939e;
 }
 a{
     text-decoration: none;
 }
-button{
-    width: 120px;
+.search {
+    background-color: #8d939e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+::placeholder {
+    color: white;
 }
