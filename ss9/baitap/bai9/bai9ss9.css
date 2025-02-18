@@ -1,0 +1,41 @@
+/* buoc1 */
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color: black;
+}
+.container{
+    margin-bottom: 20px;
+}
+.container :nth-child(1).child{
+    background-color: pink;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.row .child{
+    background-color: pink;
+    width: 500px;
+    height: 400px;
+}
+.blog-container{
+    height: 200px;
+    background-image: url(./accset/02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.blog-container .title{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
